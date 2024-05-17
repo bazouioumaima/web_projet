@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presence Form</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+        <h2>Are You a Student or a Professor?</h2> <br><br>
+            <div class="radio-input1">
+      <input id="value-1" type="radio" onclick="gotopage('professor.php')">
+      <label for="value-1">Professor</label>
+      <input id="value-2" type="radio" onclick="gotopage('student.php')">
+      <label for="value-2">Student</label>
+        </div>
+    </div>
+    <script>
+        function gotopage(x) {
+            window.location.href =x;
+        }
+        </script>        
+    
+</body>
+</html>
